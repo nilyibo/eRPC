@@ -7,6 +7,7 @@
  * a workaround.
  */
 
+#define RAW
 #ifdef RAW
 
 #include <gtest/gtest.h>
