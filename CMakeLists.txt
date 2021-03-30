@@ -251,7 +251,7 @@ if(TESTING)
 
   foreach(test_name IN LISTS TRANSPORT_TESTS)
     add_executable(${test_name} tests/transport_tests/${test_name}.cc)
-    target_link_libraries(${test_name} erpc ${GTEST_LIBRARIES} ${LIBRARIES})
+    target_link_libraries(${test_name} erpc GTest::Main ${GTEST_LIBRARIES} ${LIBRARIES})
     add_test(NAME ${test_name} COMMAND ${test_name})
   endforeach()
 
