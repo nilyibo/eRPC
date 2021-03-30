@@ -21,7 +21,7 @@ static constexpr size_t kAppReqType = 1;      // eRPC request type
 
 static constexpr size_t kAppRespSize = 8;
 static constexpr size_t kAppMinReqSize = 64;
-static constexpr size_t kAppMaxReqSize = 1024;
+static constexpr size_t kAppMaxReqSize = 8192;
 
 // If true, we persist client requests to a persistent log
 static constexpr bool kAppUsePmem = true;
