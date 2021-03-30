@@ -1,0 +1,7 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cmake.configureArgs": [
+        "-DTRANSPORT=raw",
+        "-DPERF=OFF"
+    ]
+}
